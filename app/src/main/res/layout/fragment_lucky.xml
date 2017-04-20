@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pedro.myapplication.views.tabs.LuckyFragment">
+
+    <CheckBox
+        android:id="@+id/smileyCb"
+        android:button="@drawable/cb_mood_background"
+        android:enabled="false"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/happyCb"
+        android:text="Estas Feliz?"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smileyCb"/>
+    <Button
+        android:text="Enviar!"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/luckyBtn"
+        android:layout_marginBottom="54dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
